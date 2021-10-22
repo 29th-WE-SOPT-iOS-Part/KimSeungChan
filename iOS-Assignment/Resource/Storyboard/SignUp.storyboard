@@ -66,34 +66,13 @@
                                     </textField>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N11-EY-eLT">
-                                <rect key="frame" x="50" y="610" width="314" height="50"/>
-                                <color key="backgroundColor" red="0.12287924438714981" green="0.52930843830108643" blue="0.98839157819747925" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="7xu-Al-moy"/>
-                                </constraints>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="다음">
-                                            <attributes>
-                                                <font key="NSFont" size="17" name="AppleSDGothicNeo-Regular"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="touchNextButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Vum-qc-3eH"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lj-Ru-l5a">
                                 <rect key="frame" x="50" y="521" width="20" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="syh-I6-da4"/>
                                     <constraint firstAttribute="width" constant="20" id="yYo-Q0-nVR"/>
                                 </constraints>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <buttonConfiguration key="configuration" style="plain" image="square" catalog="system"/>
                                 <connections>
                                     <action selector="showPasswordButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="QID-Ug-85a"/>
@@ -105,20 +84,34 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57x-uw-fxr">
+                                <rect key="frame" x="50" y="610" width="314" height="50"/>
+                                <color key="backgroundColor" red="0.1228792444" green="0.52930843829999996" blue="0.98839157820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="fyl-zh-exW"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="vRC-1I-933"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="다음"/>
+                                <connections>
+                                    <action selector="touchNextButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="hni-J1-Ye2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="jX3-Wm-mzE" firstAttribute="top" secondItem="7wX-Rd-axw" secondAttribute="bottom" constant="109" id="1Bs-MH-Tz9"/>
                             <constraint firstItem="7wX-Rd-axw" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="30" id="1Lf-Pq-tY2"/>
-                            <constraint firstItem="N11-EY-eLT" firstAttribute="top" secondItem="1lj-Ru-l5a" secondAttribute="bottom" constant="69" id="2ca-Zv-2Cr"/>
-                            <constraint firstItem="N11-EY-eLT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="8cI-jN-bNd"/>
                             <constraint firstItem="jX3-Wm-mzE" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="9YE-Pj-VUG"/>
                             <constraint firstItem="LvP-1e-PKJ" firstAttribute="top" secondItem="kSj-1V-u8e" secondAttribute="bottom" constant="38" id="Bye-oV-zq3"/>
+                            <constraint firstItem="57x-uw-fxr" firstAttribute="top" secondItem="1lj-Ru-l5a" secondAttribute="bottom" constant="69" id="EFg-zO-HEQ"/>
                             <constraint firstItem="1lj-Ru-l5a" firstAttribute="top" secondItem="jX3-Wm-mzE" secondAttribute="bottom" constant="35" id="H9P-E0-Ot7"/>
                             <constraint firstItem="1lj-Ru-l5a" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="SJk-6c-uJy"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="N11-EY-eLT" secondAttribute="trailing" constant="50" id="Tzt-YZ-cAT"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="57x-uw-fxr" secondAttribute="trailing" constant="50" id="Sz8-DB-DJf"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="jX3-Wm-mzE" secondAttribute="trailing" constant="50" id="fgN-u8-Ndy"/>
+                            <constraint firstItem="57x-uw-fxr" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="kf5-IW-IIN"/>
                             <constraint firstItem="LvP-1e-PKJ" firstAttribute="leading" secondItem="1lj-Ru-l5a" secondAttribute="trailing" constant="8" symbolic="YES" id="m1h-Q6-ML4"/>
                             <constraint firstItem="7wX-Rd-axw" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="rCj-wd-sk0"/>
                         </constraints>
@@ -127,7 +120,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="n0g-Cs-ief" id="LdJ-Ni-v4N"/>
                         <outlet property="nameTextField" destination="ZZu-OQ-gOZ" id="yc5-S8-ncn"/>
-                        <outlet property="nextButton" destination="N11-EY-eLT" id="7tR-8X-9wy"/>
+                        <outlet property="nextButton" destination="57x-uw-fxr" id="zga-24-UAR"/>
                         <outlet property="passwordTextField" destination="kSj-1V-u8e" id="G1Y-HW-9PD"/>
                         <outlet property="showPasswordButton" destination="1lj-Ru-l5a" id="vMq-uG-bBR"/>
                     </connections>

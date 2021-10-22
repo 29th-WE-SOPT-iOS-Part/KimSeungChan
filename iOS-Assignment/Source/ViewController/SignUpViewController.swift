@@ -30,6 +30,7 @@ class SignUpViewController: UIViewController {
     
     private func setUIButton() {
         nextButton.layer.cornerRadius = 10
+        nextButton.isEnabled = false
     }
     private func assignTextFieldDelegate() {
         [nameTextField, emailTextField, passwordTextField].forEach{
@@ -60,7 +61,12 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func showPasswordButton(_ sender: UIButton) {
-        passwordTextFieldIsSecurity ? showPassword(imageName: "checkmark.square.fill", color: .systemBlue, bool: false) : showPassword(imageName: "square", color: .lightGray, bool: true)
+        
+        if passwordTextFieldIsSecurity {
+            showPassword(imageName: "checkmark.square.fill", color: .systemBlue, bool: false)
+        } else {
+            showPassword(imageName: "square", color: .lightGray, bool: true)
+        }
     }
 }
 
