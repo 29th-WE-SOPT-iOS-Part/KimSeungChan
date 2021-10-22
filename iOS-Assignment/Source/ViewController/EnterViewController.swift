@@ -33,9 +33,29 @@ class EnterViewController: UIViewController {
             userNameLabel.text = user
         }
     }
-
+    
+    private func pushHomeViewController() {
+        let tabbarStoryboard = UIStoryboard(name: Const.Storyboard.Name.tabbar, bundle: nil)
+        guard let tabbarViewController = tabbarStoryboard.instantiateViewController(withIdentifier: Const.ViewController.Identifier.tabbar) as? TabbarViewController else {
+            return
+        }
+        let navigation = UINavigationController(rootViewController: tabbarViewController)
+        navigation.modalPresentationStyle = .overFullScreen
+        
+            self.present(navigation, animated: true, completion: nil)
+        }
+    
+    private func dismissMainViewController() {
+        self.dismiss(animated: true)
+    }
+    
     // MARK: @IBAction
     @IBAction func touchConfirmButton(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
+        pushHomeViewController()
+    }
+    
+    @IBAction func toucnAnotherAccount(_ sender: UIButton) {
+        dismissMainViewController()
     }
 }
+
