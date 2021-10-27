@@ -20,6 +20,18 @@
 		EC4E32862710300900690E46 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4E32852710300900690E46 /* Const.swift */; };
 		EC4E32882710301900690E46 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4E32872710301900690E46 /* Storyboard.swift */; };
 		EC4E328A2710308200690E46 /* ViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4E32892710308200690E46 /* ViewControllers.swift */; };
+		ECF0699B2722D80200DCF21E /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF0699A2722D80200DCF21E /* Tabbar.storyboard */; };
+		ECF0699E2722D85F00DCF21E /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF0699D2722D85F00DCF21E /* Home.storyboard */; };
+		ECF069A02722D86D00DCF21E /* Shorts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF0699F2722D86D00DCF21E /* Shorts.storyboard */; };
+		ECF069A22722D87500DCF21E /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF069A12722D87500DCF21E /* Add.storyboard */; };
+		ECF069A42722D88C00DCF21E /* Subscribe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF069A32722D88C00DCF21E /* Subscribe.storyboard */; };
+		ECF069A62722D89D00DCF21E /* Storage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF069A52722D89D00DCF21E /* Storage.storyboard */; };
+		ECF069A92722D8B600DCF21E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF069A82722D8B600DCF21E /* HomeViewController.swift */; };
+		ECF069AB2722D8BE00DCF21E /* ShortsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF069AA2722D8BE00DCF21E /* ShortsViewController.swift */; };
+		ECF069AD2722D8C300DCF21E /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF069AC2722D8C300DCF21E /* AddViewController.swift */; };
+		ECF069AF2722D8CA00DCF21E /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF069AE2722D8CA00DCF21E /* SubscribeViewController.swift */; };
+		ECF069B12722D8D000DCF21E /* StorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF069B02722D8D000DCF21E /* StorageViewController.swift */; };
+		ECF069B32722DAA500DCF21E /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF069B22722DAA500DCF21E /* TabbarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +50,18 @@
 		EC4E32852710300900690E46 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		EC4E32872710301900690E46 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		EC4E32892710308200690E46 /* ViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllers.swift; sourceTree = "<group>"; };
+		ECF0699A2722D80200DCF21E /* Tabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
+		ECF0699D2722D85F00DCF21E /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		ECF0699F2722D86D00DCF21E /* Shorts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shorts.storyboard; sourceTree = "<group>"; };
+		ECF069A12722D87500DCF21E /* Add.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
+		ECF069A32722D88C00DCF21E /* Subscribe.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Subscribe.storyboard; sourceTree = "<group>"; };
+		ECF069A52722D89D00DCF21E /* Storage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storage.storyboard; sourceTree = "<group>"; };
+		ECF069A82722D8B600DCF21E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ECF069AA2722D8BE00DCF21E /* ShortsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsViewController.swift; sourceTree = "<group>"; };
+		ECF069AC2722D8C300DCF21E /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		ECF069AE2722D8CA00DCF21E /* SubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
+		ECF069B02722D8D000DCF21E /* StorageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageViewController.swift; sourceTree = "<group>"; };
+		ECF069B22722DAA500DCF21E /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +125,11 @@
 		EC4E328B271052B500690E46 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				ECF0699C2722D83600DCF21E /* HomeStoryboards */,
 				EC4E3269270F2A5D00690E46 /* Main.storyboard */,
 				EC4E3277270F32E600690E46 /* SignUp.storyboard */,
 				EC4E327F27102C5100690E46 /* Enter.storyboard */,
+				ECF0699A2722D80200DCF21E /* Tabbar.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -121,11 +147,37 @@
 		EC4E328D271052DC00690E46 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				ECF069A72722D8A300DCF21E /* Homes */,
 				EC4E3279270F32F400690E46 /* SignUpViewController.swift */,
 				EC4E327D27102C4900690E46 /* EnterViewController.swift */,
 				EC4E3267270F2A5D00690E46 /* ViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		ECF0699C2722D83600DCF21E /* HomeStoryboards */ = {
+			isa = PBXGroup;
+			children = (
+				ECF0699D2722D85F00DCF21E /* Home.storyboard */,
+				ECF0699F2722D86D00DCF21E /* Shorts.storyboard */,
+				ECF069A12722D87500DCF21E /* Add.storyboard */,
+				ECF069A32722D88C00DCF21E /* Subscribe.storyboard */,
+				ECF069A52722D89D00DCF21E /* Storage.storyboard */,
+			);
+			path = HomeStoryboards;
+			sourceTree = "<group>";
+		};
+		ECF069A72722D8A300DCF21E /* Homes */ = {
+			isa = PBXGroup;
+			children = (
+				ECF069A82722D8B600DCF21E /* HomeViewController.swift */,
+				ECF069AC2722D8C300DCF21E /* AddViewController.swift */,
+				ECF069AA2722D8BE00DCF21E /* ShortsViewController.swift */,
+				ECF069AE2722D8CA00DCF21E /* SubscribeViewController.swift */,
+				ECF069B02722D8D000DCF21E /* StorageViewController.swift */,
+				ECF069B22722DAA500DCF21E /* TabbarViewController.swift */,
+			);
+			path = Homes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,7 +238,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF0699E2722D85F00DCF21E /* Home.storyboard in Resources */,
+				ECF0699B2722D80200DCF21E /* Tabbar.storyboard in Resources */,
 				EC4E3270270F2A5F00690E46 /* LaunchScreen.storyboard in Resources */,
+				ECF069A62722D89D00DCF21E /* Storage.storyboard in Resources */,
+				ECF069A42722D88C00DCF21E /* Subscribe.storyboard in Resources */,
+				ECF069A02722D86D00DCF21E /* Shorts.storyboard in Resources */,
+				ECF069A22722D87500DCF21E /* Add.storyboard in Resources */,
 				EC4E326D270F2A5F00690E46 /* Assets.xcassets in Resources */,
 				EC4E3278270F32E600690E46 /* SignUp.storyboard in Resources */,
 				EC4E326B270F2A5D00690E46 /* Main.storyboard in Resources */,
@@ -203,10 +261,16 @@
 			files = (
 				EC4E327E27102C4900690E46 /* EnterViewController.swift in Sources */,
 				EC4E3268270F2A5D00690E46 /* ViewController.swift in Sources */,
+				ECF069B32722DAA500DCF21E /* TabbarViewController.swift in Sources */,
+				ECF069B12722D8D000DCF21E /* StorageViewController.swift in Sources */,
 				EC4E3264270F2A5D00690E46 /* AppDelegate.swift in Sources */,
+				ECF069AD2722D8C300DCF21E /* AddViewController.swift in Sources */,
 				EC4E32882710301900690E46 /* Storyboard.swift in Sources */,
 				EC4E327A270F32F400690E46 /* SignUpViewController.swift in Sources */,
+				ECF069A92722D8B600DCF21E /* HomeViewController.swift in Sources */,
 				EC4E3266270F2A5D00690E46 /* SceneDelegate.swift in Sources */,
+				ECF069AB2722D8BE00DCF21E /* ShortsViewController.swift in Sources */,
+				ECF069AF2722D8CA00DCF21E /* SubscribeViewController.swift in Sources */,
 				EC4E328A2710308200690E46 /* ViewControllers.swift in Sources */,
 				EC4E32862710300900690E46 /* Const.swift in Sources */,
 			);

@@ -66,6 +66,14 @@
                                     <action selector="touchConfirmButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="D15-nq-lUl"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxQ-HT-prW">
+                                <rect key="frame" x="124.5" y="462" width="165" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="다른 계정으로 로그인하기"/>
+                                <connections>
+                                    <action selector="toucnAnotherAccount:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="RWZ-d9-jNW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -75,7 +83,9 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="15s-Hw-1DL" secondAttribute="trailing" constant="100" id="8yQ-vT-HU1"/>
                             <constraint firstItem="15s-Hw-1DL" firstAttribute="top" secondItem="ppp-fy-D0Y" secondAttribute="bottom" constant="15" id="K3a-Kl-V6h"/>
                             <constraint firstItem="mS5-cY-2VQ" firstAttribute="top" secondItem="vTR-LZ-Oyt" secondAttribute="bottom" constant="54" id="Qre-S2-dg0"/>
+                            <constraint firstItem="kxQ-HT-prW" firstAttribute="top" secondItem="mS5-cY-2VQ" secondAttribute="bottom" constant="33" id="R5C-gQ-0Ld"/>
                             <constraint firstItem="15s-Hw-1DL" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="100" id="byV-cb-hP3"/>
+                            <constraint firstItem="kxQ-HT-prW" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="cNl-EI-9cK"/>
                             <constraint firstItem="mS5-cY-2VQ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="io6-uo-R9C"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="mS5-cY-2VQ" secondAttribute="trailing" constant="50" id="w03-LO-Dyg"/>
                         </constraints>
